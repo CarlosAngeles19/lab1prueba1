@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 class Program
 {
@@ -11,3 +11,5 @@ class Program
         int minutosRestantes = minutos % 60;//se utiliza para calcular cuántos minutos quedan después de que se han calculado todas las horas completas.
 
         Console.WriteLine($"{minutos} minutos son {horas} horas y {minutosRestantes} minutos");
+    }
+}
